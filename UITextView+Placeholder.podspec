@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "devxoul" => "devxoul@gmail.com" }
   s.source       = { :git => "https://github.com/devxoul/UITextView-Placeholder.git",
                      :tag => "#{s.version}" }
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '12.0'
   s.requires_arc = true
   s.source_files = 'Sources/UITextView+Placeholder.{h,m}'
   s.frameworks   = 'Foundation', 'UIKit'
